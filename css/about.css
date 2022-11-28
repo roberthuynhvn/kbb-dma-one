@@ -1,0 +1,169 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+}
+
+/* header style */
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+
+  box-sizing: border-box;
+}
+
+header .half-header {
+  background-color: #70dd4a;
+  height: 50vh;
+  padding: 50px;
+}
+
+/* nav-bar style */
+
+header .nav-bar {
+  margin-top: 50px;
+}
+
+header .nav-bar .logo {
+  background: url(../img/kbb-dma-logo-white.png) 0 0 no-repeat;
+  background-size: contain;
+  width: 140px;
+  height: 30px;
+  float: left;
+}
+
+header .nav-bar .logo a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+header .nav-bar ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header .nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav-bar ul li a:hover {
+  color: #b74add;
+}
+
+header #nav-bar {
+  overflow: auto;
+}
+
+header .about-us-banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+header .about-us-banner img {
+  width: 450px;
+  height: 450px;
+  border-top: 20px solid #ffffff;
+  border-bottom: 20px solid #70dd4a;
+  border-left: 20px solid #ffffff;
+  border-right: 20px solid #70dd4a;
+  border-radius: 250px;
+}
+
+/* dropdown style */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 165px;
+  background-color: white;
+}
+
+header .half-header .nav-bar ul li .dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  color: black;
+}
+
+header .half-header .nav-bar ul li .dropdown-content a:hover {
+  color: #70dd4a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* main style */
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h2 {
+  color: #70dd4a;
+  font-size: 30px;
+}
+
+main img {
+  width: 100%;
+}
+
+main p.caption {
+  color: #999999;
+  font-style: italic;
+  margin-top: 0;
+}
+
+main ul li::before {
+  content: "\2022";
+  color: #70dd4a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+main ul li a {
+  color: #70dd4a;
+}
+
+main ul li a:hover {
+  background-color: #8f1380;
+  color: white;
+}
+
+footer {
+  background-color: #70dd4a;
+  padding: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+footer p a {
+  color: white;
+}
+
+footer p a:hover {
+  background-color: #8f1380;
+  opacity: 0.5;
+}

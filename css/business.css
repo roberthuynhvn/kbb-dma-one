@@ -1,0 +1,214 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+}
+
+/* header style */
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #70dd4a;
+  height: 100vh;
+  padding: 50px;
+}
+
+/* nav-bar style */
+
+header .nav-bar {
+  margin-top: 50px;
+}
+
+header .nav-bar .logo {
+  background: url(../img/kbb-dma-logo-white.png) 0 0 no-repeat;
+  background-size: contain;
+  width: 140px;
+  height: 30px;
+  float: left;
+}
+
+header .nav-bar .logo a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+header .nav-bar ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+header .nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header .nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav-bar ul li a:hover {
+  color: #b74add;
+}
+
+header #nav-bar {
+  overflow: auto;
+}
+
+header .about-us-banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+header .about-us-banner img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 20px solid #ffffff;
+}
+
+/* dropdown style */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+header .nav-bar ul li .dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  color: black;
+}
+
+header .nav-bar ul li .dropdown-content a:hover {
+  color: #70dd4a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* main style */
+
+h2 {
+  font-size: 40px;
+}
+
+h2,
+h3 {
+  color: #70dd4a;
+}
+
+main {
+  width: 90%;
+  margin: 50px auto;
+}
+
+/* main-side style */
+
+main .main-side {
+  width: 69%;
+  display: inline-block;
+  background-color: rgba(217, 201, 201, 0.1);
+  padding: 0 40px 10px;
+}
+
+main .main-side img {
+  width: 100%;
+}
+
+p.caption {
+  color: #999999;
+  margin-top: 0;
+  font-style: italic;
+}
+
+main .latest-news {
+  width: 20%;
+  float: right;
+  background-color: rgba(217, 201, 201, 0.1);
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* below side style */
+
+.below-side {
+  width: 90%;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* related news style */
+
+.related-news {
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 38px;
+  background-color: rgba(186, 210, 182, 0.1);
+  padding: 30px;
+}
+
+/* topics style */
+
+.topics {
+  width: 70%;
+  float: right;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+ul.topics li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 50px;
+}
+
+ul.topics li a {
+  text-decoration: none;
+  color: #70dd4a;
+}
+
+ul.topics li a:hover {
+  background-color: #70dd4a;
+  color: #ffffff;
+}
+
+/* footer style */
+
+footer {
+  background-color: #70dd4a;
+  padding: 50px;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+footer p a {
+  color: white;
+}
+
+footer p a:hover {
+  background-color: #8f1380;
+  opacity: 0.5;
+}

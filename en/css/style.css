@@ -1,0 +1,368 @@
+html,
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+/* header style */
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/img/kbb-dma-banner.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* nav-bar style */
+header .nav-bar {
+  margin-top: 50px;
+}
+
+header .nav-bar .logo {
+  width: 130px;
+  height: 30px;
+  background: url(/img/kbb-dma-logo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+
+header .nav-bar .logo a {
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+header .nav-bar ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+header .nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header .nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+header .nav-bar ul li a:hover {
+  color: #70dd4a;
+}
+
+#nav-bar {
+  overflow: auto;
+}
+
+/* header heading style */
+header h1 {
+  color: white;
+  font-size: 90px;
+  margin-top: 100px;
+}
+
+/* header call to action style */
+
+header .cta p {
+  color: white;
+  background-color: #70dd4a;
+  width: 650px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+header .cta p:hover {
+  background-color: #529f35;
+}
+
+/* header popup image style */
+header .popup {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  text-align: right;
+  width: 50%;
+}
+
+header .popup img {
+  width: 100%;
+}
+
+/* main style */
+/* section-one style */
+
+main .section-one {
+  width: 100%;
+  background-color: #70dd4a;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+main .section-one h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  letter-spacing: 6px;
+}
+
+main .section-one .container .left,
+.center,
+.right {
+  display: inline-block;
+  margin: 100px 60px 0;
+}
+
+/* section-two style */
+main .section-two {
+  margin: 100px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+main .section-two .left {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main .section-two .left img {
+  width: 500px;
+}
+
+main .section-two .right {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  color: rgb(207, 202, 202);
+}
+
+main .section-two .right h2 {
+  letter-spacing: 8px;
+  font-size: 40px;
+}
+
+main .section-two .right .cell {
+  display: inline-block;
+  width: 49%;
+  margin: 50px 0;
+}
+
+main #section-two {
+  overflow: auto;
+}
+
+/* section three style */
+
+main .section-three {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  font-size: 20px;
+}
+
+main .section-three img {
+  width: 30px;
+}
+
+/* profile frame */
+
+main .section-three .frame {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+main .section-three .frame .cell {
+  background-color: rgb(68, 0, 255);
+  padding: 0;
+  margin: 0;
+}
+
+main .section-three .frame .left {
+  float: left;
+  width: 250px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+main .section-three .frame .center {
+  float: left;
+  width: 300px;
+  background-color: white;
+}
+
+main .section-three .frame .right {
+  float: right;
+  width: 250px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+main .section-three #frame {
+  overflow: auto;
+}
+
+main .section-three .frame .cell {
+  color: #70dd4a;
+  font-size: 20px;
+}
+
+main .section-three .frame .cell p a {
+  color: #70dd4a;
+  text-decoration: none;
+}
+
+main .section-three .frame .cell p a:hover {
+  color: white;
+  background-color: #70dd4a;
+}
+
+main .section-three .frame .left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main .section-three .frame .center img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main .section-three .frame .right img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* footer style */
+/* section one */
+footer .part-one {
+  background-color: #70dd4a;
+  width: 100%;
+  text-align: center;
+  padding: 75px 0;
+}
+
+footer .part-one h2 {
+  color: white;
+  font-size: 40px;
+}
+
+footer .part-one form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer .part-one input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  margin: 40px 0;
+  outline: none;
+  padding: 0 30px;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+footer .part-one input[type="button"] {
+  background-color: white;
+  color: #70dd4a;
+  font-weight: bold;
+  padding: 20px 0;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+footer .part-one input[type="button"]:hover {
+  border: 2px solid white;
+  background-color: rgba(3, 85, 3, 0.2);
+  color: white;
+}
+
+::placeholder {
+  color: rgb(215, 212, 212);
+}
+
+/* section two */
+footer section.part-two {
+  margin: 0;
+  padding: 0;
+}
+
+footer .part-two .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer .part-two #content {
+  overflow: auto;
+}
+
+footer .part-two .container .left {
+  width: 50%;
+  background-color: #03a9f4;
+  margin: 0;
+  padding: 75px 0;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+footer .part-two .container .right {
+  width: 50%;
+  background-color: #3b5998;
+  margin: 0;
+  padding: 0;
+  padding: 75px 0;
+  float: right;
+  text-align: center;
+  color: white;
+}
+/* final line */
+footer .final {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin: 20px;
+  color: #70dd4a;
+}
+
+footer .final a {
+  color: #70dd4a;
+}
+
+footer .final a:hover {
+  color: white;
+  background-color: #70dd4a;
+}
